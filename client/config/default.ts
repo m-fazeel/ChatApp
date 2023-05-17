@@ -1,1 +1,1 @@
-export const SOCKET_URL = process.env.SOCKET_URL || "http://localhost:4000";
+export const SOCKET_URL = process.env.SOCKET_URL || "https://chat-7kxfnofzs-m-fazeel.vercel.app/api/socket";
