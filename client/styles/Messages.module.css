@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap');
+
+.chatcontainer {
+    width: 60%;
+    height: 80vh;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #000000; /* electric blue */
+    box-shadow: 0px 0px 10px #ffffff; /* lime green */
+    font-family: 'Roboto', sans-serif;
+    color: #CCF381; /* lime green */
+    overflow-y: auto;
+    font-family: 'Poltawski Nowy', serif;
+
+  }
+  
+  .chatRoomHeader {
+    text-align: center;
+    color: #ffffff; /* lime green */
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .chatmessage {
+    /* adjust width according to message size */
+    /* width: fit-content; */
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color: #CCF381; /* lime green */
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 1.2rem;
+
+  }
+  
+  .sender {
+    /* move to the right */
+    align-self: flex-end;
+    align-items: flex-end;
+    background-color: #1c6ea5; /* electric blue */
+    color: #3d5115; /* lime green */
+  }
+  
+  .receiver {
+      align-self: flex-start;
+      align-items: flex-start;
+      background-color: #43494f; /* lime green */
+      color: #d431ae; /* electric blue */
+      /* border: 1px solid #ffffff; electric blue */
+    }
+    
+    .chatUsername {
+        font-weight: bold;
+        color: #ffffff; /* electric blue */
+        margin-right: 10px;
+        padding: 0px 8px;
+        /* insert a vertical line after username */
+        border-right: 3.5px solid #f30909; /* electric blue */
+
+    }
+    .chatText {
+      color: #ffffff; /* electric blue */
+      line-height: 1.5;
+      /* padding: 0 10px; */
+    }
+  
+  
+  .chatTime {
+    text-align: right;
+    font-size: 0.8em;
+    color: #c5c0c0; /* electric blue */
+    /* padding */
+    padding: 2px 0 0 10px;
+    margin-left: auto;
+
+
+  }
+  
+  .chatInput {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chatInput textarea {
+    width: 85%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #CCF381; /* lime green */
+    background-color: #ffffff; /* lime green */
+    color: #060606; /* electric blue */
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 1em;
+  }
+  
+  .chatSendbutton{
+    width: 10%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #000000; /* electric blue */
+    color: #ffffff; /* lime green */
+    cursor: pointer;
+    font-family: 'Poltawski Nowy', serif;
+    border: 1px solid white;
+  }
+  
+  .chatSendbutton:hover {
+    background-color: #166d35; /* slightly darker blue */
+  }
+  
