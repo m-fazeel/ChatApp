@@ -58,7 +58,7 @@ function SocketsProvider(props: any) {
 
         socket.on(EVENTS.SERVER.JOINED_ROOM, (value) => {
             setRoomId(value);
-            setMessages([]);
+            socket.emit(EVENTS.CLIENT.GET_ROOM_HISTORY, value);
         });
 
         socket.on(EVENTS.SERVER.ROOM_MESSAGE, ({ message, username, time }) => {
@@ -69,6 +69,10 @@ function SocketsProvider(props: any) {
 
             
             setMessages((messages) => [...messages, { message, username, time }]);
+        });
+
+        socket.on(EVENTS.SERVER.ROOM_HISTORY, (history) => {
+            setMessages(history);
         });
 
         // When the component is unmounted, remove the event listeners
