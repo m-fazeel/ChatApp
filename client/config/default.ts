@@ -1,1 +1,1 @@
-export const SOCKET_URL = process.env.SOCKET_URL || "https://chat-7kxfnofzs-m-fazeel.vercel.app/api/socket";
+export const SOCKET_URL = process.env.SOCKET_URL || "https://chat-app-m-fazeel.vercel.app/api/socket";

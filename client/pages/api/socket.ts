@@ -21,7 +21,7 @@ const EVENTS = {
 let socket: Socket;
 
 function connect() {
-    socket = io('https://chat-7kxfnofzs-m-fazeel.vercel.app/'); // Update this URL to your server's URL
+    socket = io('https://chat-app-m-fazeel.vercel.app/'); // Update this URL to your server's URL
 
     socket.on(EVENTS.SERVER.JOINED_ROOM, (roomId) => {
         console.log(`Joined room: ${roomId}`);
