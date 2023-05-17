@@ -21,6 +21,10 @@
     "sass": "^1.62.1",
     "socket.io": "^4.6.1",
     "socket.io-client": "^4.6.1",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "vercel": "^29.3.2"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.4"
   }
 }
