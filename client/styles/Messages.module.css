@@ -112,4 +112,46 @@
   .chatSendbutton:hover {
     background-color: #166d35; /* slightly darker blue */
   }
+  /* @media only screen and (max-width: 600px) {
+    .chatcontainer {
+      width: 90%;
+    }
   
+    .chatRoomHeader {
+      font-size: 1.5em;
+    }
+  
+    .chatmessage {
+      font-size: 1rem;
+    }
+  
+    .chatInput textarea {
+      width: 70%;
+    }
+  
+    .chatSendbutton {
+      width: 25%;
+    }
+  } */
+
+  @media (max-width: 768px) {
+    .chatcontainer {
+      width: 50%;
+    }
+  
+    .chatRoomHeader {
+      font-size: 1.5em;
+    }
+  
+    .chatmessage {
+      font-size: 1rem;
+    }
+  
+    .chatInput textarea {
+      width: 75%;
+    }
+  
+    .chatSendbutton{
+      width: 20%;
+    }
+  }

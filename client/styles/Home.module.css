@@ -61,11 +61,12 @@
   border: none;
   outline: none;
   background-color: rgb(0, 0, 0);
-  color: rgb(104, 221, 236);
-  font-weight: 500;
+  color: rgb(243, 227, 255);
+  font-weight: 300;
   cursor: pointer;
   box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.9);
   font-family: 'Libre Franklin', sans-serif;
+
 }
 
 .usernameInner button {
@@ -74,6 +75,7 @@
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   font-family: 'Libre Franklin', sans-serif;
+
 
 }
 
@@ -192,6 +194,53 @@
 animation: rotate-background 70s linear infinite;
 }
 
+@media only screen and (max-width: 768px) {
+  .heading {
+    font-size: 2.5rem;
+  }
 
+  .heading2 {
+    font-size: 1.2rem;
+  }
 
+  .usernameInner {
+    padding: 2rem;
+  }
 
+  .usernameInner input,
+  .usernameInner button {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .imag {
+    height: 15vh;
+    width: 15vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .usernameInner {
+    flex-direction: column;
+  }
+
+  .usernameInner input,
+  .usernameInner button {
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .heading2 {
+    font-size: 1rem;
+  }
+
+  .imag {
+    height: 20vh;
+    width: 20vh;
+  }
+}

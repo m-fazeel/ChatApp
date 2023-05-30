@@ -2,7 +2,7 @@
   width: 300px;
   /* background-color: rgba(256, 256, 256, 0.8); */
   /* background: url(../public/bg_rooms.jpg); */
-  background-color: #cbe9ef;
+  background-color: #4f1083;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -98,4 +98,12 @@
   /* Move it to right */
   margin-left: auto;
   background-color: rgb(108, 28, 28);
+}
+
+
+/* make it responsive */
+@media (max-width: 768px) {
+  .wrapper {
+    width: 200px;
+  }
 }
