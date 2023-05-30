@@ -79,7 +79,7 @@
 
 }
 
-@keyframes move-background {
+/* @keyframes move-background {
   from {
     -webkit-transform: translate3d(0px, 0px, 0px);
   }
@@ -112,7 +112,7 @@
   to { 
     -webkit-transform: translate3d(1000px, 0px, 0px);
   }
-}
+} */
 
 .usernameWrapper{
   position: fixed;
@@ -162,20 +162,20 @@
     top: 0;
     bottom: 0;
     z-index: 3;
-
+/* 
    -moz-animation:move-background 150s linear infinite;
   -ms-animation:move-background 150s linear infinite;
   -o-animation:move-background 150s linear infinite;
   -webkit-animation:move-background 150s linear infinite;
-  animation:move-background 150s linear infinite;
-}
+  animation:move-background 150s linear infinite; */
+/* }
 @keyframes rotate-background {
   0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
-  }
+  } */
 }
 
 
@@ -194,7 +194,7 @@
 animation: rotate-background 70s linear infinite;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
   .heading {
     font-size: 2.5rem;
   }
